@@ -22,4 +22,4 @@ EXPOSE 4040
 
 
 # Start Code Server with customizations and Blue Light Theme
-CMD ["code-server", "--auth", "none", "--host", "0.0.0.0", "--bind-addr", "0.0.0.0:8080"]
+CMD ["code-server", "--auth", "none", "--host", "0.0.0.0", "--bind-addr", "0.0.0.0:4040"]
